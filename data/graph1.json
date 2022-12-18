@@ -1,0 +1,28 @@
+{ "name":"graph1",
+  "n":6,
+  "m":13,
+  "isDirected" : true,
+  "isWeighted" : true,
+  "nodes": [ 
+    {"id": 0, "label": "s",  "x":0,"y":2},
+    {"id": 1, "label": "v1", "x":2,"y":4},
+    {"id": 2, "label": "v2", "x":2,"y":0},
+    {"id": 3, "label": "v3", "x":4,"y":4},
+    {"id": 4, "label": "v4", "x":4,"y":0},
+    {"id": 5, "label": "t",  "x":6,"y":2}
+  ],
+  "arcs": [
+    { "id": 0,  "end1": 0, "end2": 1, "weight": 12},
+    { "id": 1,  "end1": 1, "end2": 0, "weight":  4},
+    { "id": 2,  "end1": 0, "end2": 2, "weight": 13},
+    { "id": 4,  "end1": 1, "end2": 2, "weight": 10},
+    { "id": 5,  "end1": 2, "end2": 1, "weight":  4},
+    { "id": 6,  "end1": 1, "end2": 3, "weight":  8},
+    { "id": 7,  "end1": 2, "end2": 3, "weight":  4},
+    { "id": 8,  "end1": 3, "end2": 2, "weight":  5},
+    { "id": 9,  "end1": 2, "end2": 4, "weight": 10},
+    { "id": 10, "end1": 4, "end2": 2, "weight":  4},
+    { "id": 11, "end1": 3, "end2": 5, "weight": 20},
+    { "id": 12, "end1": 4, "end2": 5, "weight":  4}
+  ]
+} 
